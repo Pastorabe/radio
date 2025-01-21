@@ -1,0 +1,8 @@
+{
+  "rules": {
+    "stations": {
+      ".read": true,
+      ".write": false
+    }
+  }
+}

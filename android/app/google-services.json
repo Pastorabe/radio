@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "94954428418",
+    "firebase_url": "https://radio-rff.firebaseio.com",
+    "project_id": "radio-rff",
+    "storage_bucket": "radio-rff.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:94954428418:android:785cfd1377260b0897af1b",
+        "android_client_info": {
+          "package_name": "com.radio.flf"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "94954428418-3oib6ln0ecpqha3r5iard2m6shsko76a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwcyxZDJ7ETUwAKWCs0SeGwkQTzLxf-LM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "94954428418-3oib6ln0ecpqha3r5iard2m6shsko76a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:94954428418:android:de139b29be45a71597af1b",
+        "android_client_info": {
+          "package_name": "com.radio.rff"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "94954428418-3oib6ln0ecpqha3r5iard2m6shsko76a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwcyxZDJ7ETUwAKWCs0SeGwkQTzLxf-LM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "94954428418-3oib6ln0ecpqha3r5iard2m6shsko76a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
