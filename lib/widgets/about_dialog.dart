@@ -30,9 +30,9 @@ class AppAboutDialog extends StatelessWidget {
           children: [
             // En-tête avec dégradé
             Container(
-              decoration: BoxDecoration(
+              decoration: const BoxDecoration(
                 gradient: AppTheme.mainGradient,
-                borderRadius: const BorderRadius.vertical(top: Radius.circular(20)),
+                borderRadius: BorderRadius.vertical(top: Radius.circular(20)),
               ),
               padding: const EdgeInsets.all(16),
               child: const Row(
@@ -169,7 +169,7 @@ class AppAboutDialog extends StatelessWidget {
             const SizedBox(height: 4),
             Text(
               label,
-              style: TextStyle(
+              style: const TextStyle(
                 fontSize: 12,
                 color: AppTheme.primaryColor,
               ),

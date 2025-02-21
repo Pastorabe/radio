@@ -57,7 +57,7 @@ class ProgramGrid extends StatelessWidget {
                               ? Theme.of(context).colorScheme.primaryContainer
                               : Theme.of(context)
                                   .colorScheme
-                                  .surfaceVariant
+                                  .surfaceContainerHighest
                                   .withOpacity(0.5),
                           borderRadius: BorderRadius.circular(8),
                         ),

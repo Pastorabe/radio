@@ -28,7 +28,7 @@ class MiniPlayer extends StatelessWidget {
               end: Alignment.bottomCenter,
               colors: [
                 Theme.of(context).primaryColor.withOpacity(1.0),
-                Color(0xFF9C27B0).withOpacity(0.95),
+                const Color(0xFF9C27B0).withOpacity(0.95),
               ],
             ),
             boxShadow: [

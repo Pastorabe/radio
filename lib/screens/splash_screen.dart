@@ -18,7 +18,7 @@ class _SplashScreenState extends State<SplashScreen> with SingleTickerProviderSt
   late Animation<double> _animation;
   bool _isLoading = true;
   String _loadingText = 'Chargement...';
-  double _progress = 0.0;
+  final double _progress = 0.0;
   bool _stationsLoaded = false;
 
   @override
@@ -138,7 +138,7 @@ class _SplashScreenState extends State<SplashScreen> with SingleTickerProviderSt
     return Scaffold(
       backgroundColor: AppTheme.primaryColor,
       body: Container(
-        decoration: BoxDecoration(
+        decoration: const BoxDecoration(
           gradient: AppTheme.mainGradient,
         ),
         child: Center(

@@ -3,7 +3,6 @@ import 'package:provider/provider.dart';
 import '../models/podcast.dart';
 import '../services/podcast_service.dart';
 import '../services/audio_service.dart';
-import 'podcast_detail_screen.dart';
 
 class PodcastScreen extends StatelessWidget {
   const PodcastScreen({Key? key}) : super(key: key);

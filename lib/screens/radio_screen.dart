@@ -80,7 +80,7 @@ class _RadioStationCardState extends State<RadioStationCard> {
     if (slides.isEmpty) {
       return Container(
         height: 200,
-        decoration: BoxDecoration(
+        decoration: const BoxDecoration(
           gradient: AppTheme.mainGradient,
         ),
         child: Center(

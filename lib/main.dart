@@ -3,22 +3,13 @@ import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
-import 'package:cached_network_image/cached_network_image.dart';
 import 'firebase_options.dart';
 import 'services/auth_service.dart';
 import 'services/station_service.dart';
 import 'services/audio_service.dart';
 import 'services/podcast_service.dart';
-import 'screens/admin/admin_login_screen.dart';
-import 'screens/podcast_screen.dart';
-import 'screens/radio_screen.dart';
 import 'screens/splash_screen.dart';
 import 'screens/home_page.dart';
-import 'models/station.dart';
-import 'widgets/audio_player.dart';
-import 'widgets/mini_player.dart';
-import 'widgets/station_list.dart';
-import 'widgets/unified_player.dart';
 import 'theme/app_theme.dart';
 
 Future<void> main() async {
@@ -28,7 +19,7 @@ Future<void> main() async {
     DeviceOrientation.portraitUp,
     DeviceOrientation.portraitDown,
   ]);
-
+  await Firebase.initializeApp();
   try {
     print('=== Initialisation de Firebase ===');
     await Firebase.initializeApp(

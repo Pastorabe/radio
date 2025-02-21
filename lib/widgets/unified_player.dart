@@ -19,7 +19,7 @@ class UnifiedPlayer extends StatelessWidget {
               begin: Alignment.topCenter,
               end: Alignment.bottomCenter,
               colors: [
-                Color(0xFF9C27B0).withOpacity(0.95),
+                const Color(0xFF9C27B0).withOpacity(0.95),
                 Theme.of(context).primaryColor.withOpacity(1.0),
               ],
             ),
